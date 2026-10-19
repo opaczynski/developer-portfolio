@@ -1,0 +1,26 @@
+# Developer Portfolio
+
+A high-performance, accessible developer portfolio built from the ground up with **Vue 3** and modern web standards. Designed with a strict performance-first mindset, this application showcases advanced front-end efficiency, responsive architecture, and inclusive UX design without relying on generic templates.
+
+## Key Features
+
+* **Framework Core:** Built with Vue 3 as a culmination of modern front-end engineering, performance tuning, and clean component structure.
+* **WCAG 2.1 A & AA Compliant:** Verified through automated testing and manual audits using native screen readers (NVDA / VoiceOver).
+* **Accessibility Control Panel:** Manages visual adaptations (contrast modes, reduced motion, reduced transparency, reading mask, dynamic typography) with conflict-free CSS architecture.
+* **Non-Visual Alert System:** Dynamic ARIA live regions announce real-time status updates seamlessly without disrupting user focus.
+* **Image Optimization Pipeline:** HTML5 `<picture>` tags with multi-format fallbacks (`AVIF` → `WebP` → `PNG`), responsive sourcing, and a high-DPI preview modal.
+* **Internationalization (PL/EN):** Automatic locale detection with persistent state across sessions.
+* **Cross-Engine Compatibility:** Validated across Chromium, Firefox, and WebKit/Safari, with terminal browser fallback support (`Lynx`, `w3m`) via semantic `<noscript>` structures.
+
+## Getting Started
+
+### Prerequisites
+Make sure you have Node.js installed on your machine.
+
+### Installation & Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/opaczynski/developer-portfolio.git
+   cd developer-portfolio
+   ```

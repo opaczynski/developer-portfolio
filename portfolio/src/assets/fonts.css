@@ -1,0 +1,74 @@
+:root {
+	--font-base: 16px;
+	--font-multiplier: 1;
+	font-size: calc(var(--font-multiplier) * var(--font-base));
+}
+
+/* 1. Very small smartphones (e.g., older models, narrow windows) */
+@media (max-width: 359.98px) {
+	:root {
+		--font-base: 13px;
+	}
+}
+
+/* 2. Standard smartphones and small screens / folded foldables */
+@media (min-width: 360px) and (max-width: 479.98px) {
+	:root {
+		--font-base: 14px;
+	}
+}
+
+/* 3. Tablets, phablets, and portrait screens / unfolded foldables */
+@media (min-width: 480px) and (max-width: 767.98px) {
+	:root {
+		--font-base: 15px;
+	}
+}
+
+/* 4. Older square monitors (4:3 / 5:4) and smaller laptops */
+@media (min-width: 768px) and (max-width: 1023.98px) {
+	:root {
+		--font-base: 15px;
+	}
+}
+
+/* 5. Standard laptops and 16:10 / 16:9 aspect ratio screens */
+@media (min-width: 1024px) and (max-width: 1919.98px) {
+	:root {
+		--font-base: 16px;
+	}
+}
+
+/* 6. Full HD (FHD) monitors and larger workspaces */
+@media (min-width: 1920px) and (max-width: 2559.98px) {
+	:root {
+		--font-base: 18px;
+	}
+}
+
+/* 7. High-resolution monitors (2K / QHD) and wide screens */
+@media (min-width: 2560px) and (max-width: 3839.98px) {
+	:root {
+		--font-base: 20px;
+	}
+}
+
+/* 8. Extreme screens (4K, 8K, and Super-Ultrawide e.g., 32:9) */
+@media (min-width: 3840px) {
+	:root {
+		--font-base: 24px;
+	}
+}
+
+html.biggerText {
+	--font-multiplier: 1.5;
+}
+html.biggerTextPlus {
+	--font-multiplier: 2;
+}
+html.smallerText {
+	--font-multiplier: 0.8;
+}
+html.smallerTextPlus {
+	--font-multiplier: 0.5;
+}

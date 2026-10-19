@@ -1,0 +1,453 @@
+{
+  "navbar": {
+    "en": {
+      "featuredProjects": "Featured Projects",
+      "lab": "Lab",
+      "aboutAria": "About Aria",
+      "flagImage": "flags/en",
+      "translate": "Zmień język na polski",
+      "translateTo": "pl"
+    },
+    "pl": {
+      "featuredProjects": "Wybrane Projekty",
+      "lab": "Lab",
+      "aboutAria": "O Arii",
+      "flagImage": "flags/pl",
+      "translate": "Change the language to English",
+      "translateTo": "en"
+    }
+  },
+  "hero": {
+    "en": {
+      "title": "8 years of passion for code",
+      "altEnding": "Press Enter to enable image preview",
+      "description": [
+        "I build developer tooling and advocate for web accessibility.",
+        "I design software through the lens of UX and Accessibility. My core projects are custom solutions built to automate and streamline how other developers audit and test their interfaces. I firmly believe the web should be open to everyone, which is why instead of duplicating patterns and creating generic websites, I focus on real technical challenges at the intersection of code and human behavior.",
+        "My journey is one of continuous experimentation, exploring the boundaries of technology (from pure frontend to advanced shaders), and intentionally learning from mistakes. Every line of code I write is a step toward more resilient and inclusive digital design."
+      ],
+      "imgSrc": "aria/aria_welcome",
+      "hasAvif": true,
+      "imgAlt": "Chibi illustration of Aria in a cheerful welcome pose, leaning slightly to the left while balancing on her left leg with her right foot raised. She is winking with her right eye closed, showing her blue left eye, and waving warmly with her right hand"
+    },
+    "pl": {
+      "title": "8 lat pasji do kodu",
+      "altEnding": "Naciśnij enter, by włączyć podgląd obrazka",
+      "description": [
+        "Tworzę narzędzia dla deweloperów i promuję dostępność cyfrową.",
+        "Projektuję oprogramowanie przez pryzmat UX oraz dostępności. Moje główne projekty to autorskie rozwiązania stworzone z myślą o automatyzacji i usprawnianiu sposobu, w jaki inni deweloperzy audytują i testują swoje interfejsy. Głęboko wierzę, że sieć powinna być otwarta dla każdego, dlatego zamiast powielać te same wzorce i tworzyć generyczne strony internetowe, skupiam się na realnych wyzwaniach technicznych na styku kodu i zachowań ludzkich.",
+        "Moja droga to ciągłe eksperymentowanie, badanie granic technologii (od czystego frontendu po zaawansowane shadery) oraz świadome uczenie się na błędach. Każda linijka kodu, którą piszę, to krok w stronę bardziej odpornego i inkluzywnego projektowania cyfrowego."
+      ],
+      "imgSrc": "aria/aria_welcome",
+      "hasAvif": true,
+      "imgAlt": "Ilustracja w stylu chibi przedstawiająca Arię w radosnej, powitalnej pozie – pochyla się lekko w lewo, balansując na lewej nodze z uniesioną prawą stopą. Serdecznie macha prawą ręką i Mruga, mając zamknięte prawe oko, oraz widoczne niebieskie lewe oko"
+    }
+  },
+  "featuredProjects": {
+    "en": {
+      "title": "Featured Projects",
+      "altEnding": "Press Enter to enable image preview",
+      "features": "Key Features",
+      "lessons": "Limitations & Lessons",
+      "projects": [
+        {
+          "title": "This website",
+
+          "titleLang": "en",
+
+          "url": "https:///opaczynski.dev/",
+
+          "urlIcon": "web",
+
+          "urlAlt": "Visit the homepage of this website",
+
+          "description": "A high-performance, accessible developer portfolio built from the ground up with Vue 3 and modern web standards. Designed with a strict performance-first mindset, the application eliminates unnecessary dependencies while serving as a real-world showcase for advanced image optimization, resilient layout techniques, and inclusive UX design. Instead of relying on generic templates, every single component is engineered to demonstrate how accessibility, aesthetics, and raw front-end efficiency can seamlessly coexist.",
+
+          "features": [
+            "Architected as a first framework-based project leveraging Vue 3, acting as a unified culmination of core front-end engineering, performance tuning, and accessibility practices,",
+
+            "Full alignment with WCAG 2.1 Level A & AA standards, rigorously verified through automated testing as well as manual audits using native screen readers (NVDA / VoiceOver),",
+
+            "Non-visual alert system utilizing dynamic ARIA live regions to ensure real-time status updates are seamlessly announced to assistive technology users without focus disruption,",
+
+            "Comprehensive image optimization pipeline utilizing HTML5 <picture> with multi-format fallback chains (AVIF → WebP → PNG) and dynamic resolution sourcing, paired with an enlarged, high-DPI image preview modal,",
+
+            "Seamless internationalization (PL/EN) featuring automatic user locale detection on initial visit and state persistence across navigation,",
+
+            "Advanced Accessibility Control Panel managing complex visual adaptations (contrast modes, reduced motion, reduced transparency, color reduction, reading mask, and dynamic typography) engineered to prevent cascade conflicts,",
+
+            "Cross-engine CSS compatibility validated across Chromium, Firefox, and WebKit/Safari, alongside dedicated, text-mode fallback support for terminal browsers like Lynx and w3m via semantic <noscript> structures."
+          ],
+
+          "lessons": [
+            "Uncovered subtle cross-browser rendering quirks, such as WebKit/Safari's distinct sub-pixel element scaling algorithms, which required structural CSS adjustments to prevent layout shifts,",
+            "Engineers encountered Gecko/Firefox's strict adherence to flexbox specifications regarding minimum sizing and alignment, offering valuable lessons in defensive cross-engine flex layout design,",
+            "Maintaining multiple overlapping accessibility overrides (e.g., combining high contrast with reduced transparency and reading masks) requires strict CSS architecture to prevent visual specificity conflicts,",
+            "Relying entirely on client-side state for theme preferences and locale management can lead to minor layout shifts or theme flashes during the initial render phase if not pre-hydrated."
+          ],
+
+          "imgSrc": "projects/logo",
+
+          "hasAvif": true,
+
+          "imgAlt": "A stylized capital letter “A” with a gradient color fill, featuring a triangular cutout and a thick outline"
+        }
+      ]
+    },
+    "pl": {
+      "title": "Wybrane Projekty",
+      "altEnding": "Naciśnij enter, by włączyć podgląd obrazka",
+      "features": "Kluczowe Właściwości",
+      "lessons": "Ograniczenia i Lekcje",
+      "projects": [
+        {
+          "title": "Ta strona",
+          "titleLang": "pl",
+          "url": "https://opaczynski.dev/",
+          "urlIcon": "web",
+          "urlAlt": "Odwiedź stronę główną tej witryny",
+          "description": "Zoptymalizowane pod kątem wydajności i dostępności cyfrowej portfolio deweloperskie, zbudowane od podstaw w oparciu o Vue 3 oraz nowoczesne standardy sieciowe. Zaprojektowana z myślą o maksymalnej wydajności, aplikacja eliminuje zbędne zależności, stanowiąc praktyczny przykład zaawansowanej optymalizacji obrazów, odpornych technologii układu (layoutu) oraz inkluzywnego projektowania UX. Zamiast korzystać z gotowych szablonów, każdy komponent został wyreżyserowany tak, aby udowodnić, że dostępność, estetyka i czysta wydajność frontendu mogą ze sobą harmonijnie współistnieć.",
+          "features": [
+            "Zbudowana jako pierwszy projekt oparty na frameworku z wykorzystaniem Vue 3, stanowiący zwieńczenie kluczowych umiejętności inżynierii frontendowej, strojenia wydajności i praktyk dostępności,",
+            "Pełna zgodność ze standardami WCAG 2.1 na poziomie A i AA, rygorystycznie zweryfikowana poprzez testy automatyczne oraz manualne audyty z użyciem natywnych czytników ekranu (NVDA / VoiceOver),",
+            "Niewizualny system alertów wykorzystujący dynamiczne reRegiony ARIA live, zapewniający płynne ogłaszanie aktualizacji stanu w czasie rzeczywistym użytkownikom technologii wspomagających bez rozpraszania ostrości (focusa),",
+            "Kompleksowy potok optymalizacji obrazów wykorzystujący HTML5 <picture> z wieloformatowymi łańcuchami zastępczymi (AVIF → WebP → PNG) i dynamicznym doborem rozdzielczości, połączony z powiększonym modalem oferującym podgląd obrazka w wysokiej rozdzielczości DPI,",
+            "Płynna internacjonalizacja (PL/EN) z automatycznym wykrywaniem lokalizacji użytkownika podczas pierwszej wizyty oraz zachowywaniem stanu nawigacji,",
+            "Zaawansowany panelUstawień Dostępności zarządzający złożonymi adaptacjami wizualnymi (kontrast, ograniczony ruch, ograniczona przeźroczystość, ograniczenie kolorów, maska do czytania oraz dostosowywanie tekstu), zaprojektowany tak, aby zapobiegać konfliktom kaskadowości CSS,",
+            "Kompatybilność CSS między silnikami zweryfikowana na przeglądarkach Chromium, Firefox i WebKit/Safari, wraz z dedykowanym wsparciem tekstowym dla przeglądarek terminalowych, takich jak Lynx i w3m, za pomocą semantycznych struktur <noscript>."
+          ],
+          "lessons": [
+            "Odkryłem niuanse renderowania między przeglądarkami, takie jak odmienne algorytmy skalowania elementów subpikselowych w silniku WebKit/Safari, co wymagało strukturalnych korekt CSS w celu zapobiegania przesunięciom układu,",
+            "Zderzenie ze ścisłym przestrzeganiem specyfikacji Flexbox przez silnik Gecko/Firefox w zakresie minimalnych rozmiarów i wyrównania dostarczyło cennych lekcji na temat defensywnego projektowania układów flex pod różne silniki,",
+            "Utrzymanie wielu nakładających się reguł dostępności (np. łączenie wysokiego kontrastu z ograniczoną przeźroczystością i maską do czytania) wymaga rygorystycznej architektury CSS, aby uniknąć konfliktów specyficzności stylów,",
+            "Poleganie wyłącznie na stanie po stronie klienta przy zarządzaniu preferencjami motywu i lokalizacją może prowadzić do drobnych przesunięć układu lub mignięć motywu podczas wstępnego renderowania, jeśli dane nie zostaną wcześniej zsynchronizowane (pre-hydrated)."
+          ],
+          "imgSrc": "projects/logo",
+          "hasAvif": true,
+          "imgAlt": "Stylizowana wielka litera „A” z gradientowym wypełnieniem, trójkątnym wycięciem i grubym obrysem"
+        }
+      ]
+    }
+  },
+  "lab": {
+    "en": {
+      "title": "Lab",
+      "altEnding": "Press Enter to enable image preview",
+      "features": "Key Features",
+      "lessons": "Limitations & Lessons",
+      "projects": [
+        {
+          "title": "Landing page",
+          "titleLang": "en",
+          "url": "./projects/landing_page/",
+          "urlIcon": "web",
+          "urlAlt": "Open Landing Page demo",
+          "description": "A lightweight, minimalist “link-in-bio” website, designed around a bold red color scheme with contrasting light-colored elements. The main goal of the project is to aggregate links and present the user's profile in the best possible way on any type of screen.",
+          "features": [
+            "Dynamic scaling of fonts, margins, and rounded corners based on a CSS variable calculated on the fly by JavaScript,",
+            "Three dedicated responsive layouts: portrait for smartphones, landscape for desktops, and a unique slider mode for square screens/tablets,",
+            "Profile segmentation that provides a clear division into a photo, a bio, a navigation section, and contact icons,",
+            "Optimizing the user experience by distinguishing between mouse interactions (:hover) and touchscreen interactions (:active)."
+          ],
+          "lessons": [
+            "The lack of alt attributes for images and the lack of full link semantics reduce accessibility for screen readers,",
+            "A delay in layout calculation caused by a script after the `body` element loads may result in a temporary FOUC effect,",
+            "Layout relies entirely on JavaScript, which prevents full navigation if scripts are disabled,",
+            "I've learned that responsiveness doesn't mean “It has to look exactly the same everywhere,” but rather that the layout should be deliberately adapted and restructured to suit the specific characteristics of particular devices."
+          ],
+          "imgSrc": "projects/landing_page",
+          "hasAvif": false,
+          "imgAlt": "Desktop, portrait and tablet layout preview of the landing page project"
+        }
+      ]
+    },
+    "pl": {
+      "title": "Lab",
+      "altEnding": "Naciśnij enter, by włączyć podgląd obrazka",
+      "features": "Kluczowe Właściwości",
+      "lessons": "Ograniczenia i Lekcje",
+      "projects": [
+        {
+          "title": "Landing page",
+          "titleLang": "en",
+          "url": "./projects/landing_page/",
+          "urlIcon": "web",
+          "urlAlt": "Otwórz demo Landing Page",
+          "description": "Lekka, minimalistyczna strona typu „link-in-bio”, zaprojektowana w oparciu o wyrazistą, czerwoną kolorystykę z kontrastującymi, jasnymi elementami. Głównym celem projektu jest agregacja linków oraz jak najlepsza prezentacja profilu użytkownika na każdym rodzaju ekranu.",
+          "features": [
+            "Dynamiczne skalowanie czcionek, marginesów i zaokrągleń na podstawie zmiennej CSS obliczanej na bieżąco przez JavaScript,",
+            "Trzy dedykowane układy responsywne: pionowy dla smartfonów, poziomy dla komputerów oraz unikalny tryb slajdera dla kwadratowych ekranów i tabletów,",
+            "Segmentacja profilu zapewniająca przejrzysty podział na zdjęcie, opis (bio), sekcję nawigacji oraz ikony kontaktowe,",
+            "Optymalizacja doświadczeń użytkownika (UX) poprzez rozróżnienie interakcji myszą (:hover) od interakcji na ekranach dotykowych (:active)."
+          ],
+          "lessons": [
+            "Brak atrybutów alt dla obrazów oraz pełnej semantyki linków obniża dostępność dla czytników ekranu,",
+            "Opóźnienie w obliczaniu układu przez skrypt po załadowaniu elementu `body` może powodować chwilowy efekt FOUC,",
+            "Układ opiera się całkowicie na JavaScript, co uniemożliwia pełną nawigację przy wyłączonej obsłudze skryptów,",
+            "Nauczyłem się, że responsywność nie oznacza „Musi wyglądać wszędzie dokładnie tak samo”, ale że układ powinien być celowo dostosowywany i przebudowywany ze względu na specyfikę konkretnych urządzeń."
+          ],
+          "imgSrc": "projects/landing_page",
+          "hasAvif": false,
+          "imgAlt": "Podgląd układu strony w wersji stacjonarnej, mobilnej oraz tabletowej"
+        }
+      ]
+    }
+  },
+  "aboutAria": {
+    "en": {
+      "title": "About Aria",
+      "altEnding": "Press Enter to enable image preview",
+      "description": [
+        "Aria is a brilliant, independent front-end developer who devotes all her passion and expertise to digital accessibility. Her daily life is a fascinating blend of technology and empathy—she works in a cutting-edge AR environment, where she audits and designs interfaces to ensure they are barrier-free and accessible to every user. Although she’s an introvert, she has an incredibly energetic and chaotic side, which is perfectly reflected in her striking appearance and bold black-and-orange outfit. Her dark navy hair frames a face featuring striking heterochromia—her right eye is gold, while her left is blue. She wears a crop-top sweatshirt with loose sleeves featuring a yellow letter 'A' logo, chunky boots, and custom orange fingerless gloves with black trim around the exposed fingers and wrists. Her style is perfectly complemented by subtle details for the observant, such as a unique zipper shaped like a computer cursor and oversized headphones, protecting her from sensory overload.",
+        "Her closest companion is Pixel—a deaf dog bursting with boundless energy, whom Aria successfully trains using a haptic collar. Thanks to the collar’s vibrations and tactile pulses, she is able to communicate with her pet without words, which perfectly illustrates how she applies her passion for breaking down barriers from the world of code to everyday life. Aria is an idealist whose engineering precision is combined with a deep sensitivity to the needs of others, creating a character who doesn’t wait for change but designs it herself.",
+        "My biggest upcoming project is an educational game starring Aria! It’s all about accessibility, and both developers and non-developers will learn something from it. More information coming soon!"
+      ],
+      "imgSrc": "aria/aria_bust_up",
+      "hasAvif": true,
+      "imgAlt": "Bust-up illustration of Aria looking confidently forward with a subtle smile, using her left hand to hold up her AR goggles on her forehead. She has dark navy hair, distinctive heterochromia with a golden right eye and a blue left eye, and wears oversized headphones. Her orange fingerless gloves feature detailed black trim at the wrists and exposed fingers, and her orange crop-top sweatshirt displays a yellow letter 'A' logo",
+      "credit": "Character design and illustrations"
+    },
+    "pl": {
+      "title": "O Arii",
+      "altEnding": "Naciśnij enter, by włączyć podgląd obrazka",
+      "description": [
+        "Aria to błyskotliwa, niezależna front-end developerka, która z pasją i zaangażowaniem oddaje się dostępności cyfrowej. Jej codzienne życie to fascynujące połączenie technologii i empatii — pracuje w zaawansowanym środowisku AR, gdzie audytuje i projektuje interfejsy tak, by były wolne od barier i dostępne dla każdego użytkownika. Choć jest introwertyczką, ma w sobie niezwykle energetyczną i chaotyczną stronę, co idealnie odzwierciedla jej wyrazisty wygląd i odważny, czarno-pomarańczowy strój. Ciemnogranatowe włosy okalają twarz z niezwykłą heterochromią — jej prawe oko jest złote, a lewe niebieskie. Nosi krótką bluzę z luźnymi rękawami i żółtym logo w kształcie litery „A”, masywne buty oraz pomarańczowe rękawiczki bez palców z czarnym wykończeniem wokół wycięć palców i nadgarstków. Jej styl idealnie dopełniają subtelne detale dla spostrzegawczych, takie jak unikalny suwak w kształcie kursora oraz duże słuchawki, chroniące ją przed przebodźcowaniem.",
+        "Jej najbliższym kompanem jest Pixel — głuchy pies tryskający nieprzebraną energią, którego Aria z sukcesem trenuje przy użyciu obroży haptycznej. Dzięki wibracjom i impulsom dotykowym obroży jest w stanie porozumiewać się ze swoim pupilem bez słów, co doskonale pokazuje, jak przenosi swoją pasję do przełamywania barier ze świata kodu do codziennego życia. Aria to idealistka, której inżynieryjna precyzja łączy się z głęboką wrażliwością na potrzeby innych, tworząc postać, która nie czeka na zmiany, lecz sama je projektuje.",
+        "Mój największy nadchodzący projekt to gra edukacyjna, w której Aria gra główną rolę! Całość skupia się na dostępności — zarówno deweloperzy, jak i osoby spoza branży wyniosą z niej coś dla siebie. Więcej informacji już wkrótce!"
+      ],
+      "imgSrc": "aria/aria_bust_up",
+      "hasAvif": true,
+      "imgAlt": "Ilustracja przedstawiająca Arię, która z subtelnym uśmiechem spogląda pewnie przed siebie, przytrzymując lewą ręką gogle AR na czole. Ma ciemnoniebieskie włosy, charakterystyczną heterochromię – prawe oko jest złote, a lewe niebieskie – oraz nosi oversizowe słuchawki. Jej pomarańczowe rękawiczki bez palców mają szczegółowe czarne wykończenie na nadgarstkach i wycięciach palców, a pomarańczowa bluza typu crop-top zdobi żółte logo w kształcie litery „A”",
+      "credit": "Projekt i ilustracje postaci"
+    }
+  },
+  "footer": {
+    "en": {
+      "toTop": "Back to the top"
+    },
+    "pl": {
+      "toTop": "Powrót na górę"
+    }
+  },
+  "imagePreview": {
+    "en": {
+      "exit": "Close image preview"
+    },
+    "pl": {
+      "exit": "Zamknij podgląd obrazu"
+    }
+  },
+  "accessibility": {
+    "en": {
+      "menuTitle": "Accessibility Settings",
+      "accessibilityAlt": "Accessibility settings",
+      "buttons": [
+        {
+          "name": "Color Theme",
+          "values": ["Auto", "Light", "Dark"],
+          "emitFunction": "colorScheme",
+          "imgSrc": "accessibility/colorTheme",
+          "imgAlt": ""
+        },
+        {
+          "name": "Contrast",
+          "values": ["Auto", "Default", "Less", "More"],
+          "emitFunction": "contrast",
+          "imgSrc": "accessibility/contrast",
+          "imgAlt": ""
+        },
+        {
+          "name": "Reduced Motion",
+          "values": ["Auto", "Off", "On"],
+          "emitFunction": "reducedMotion",
+          "imgSrc": "accessibility/reducedMotion",
+          "imgAlt": ""
+        },
+        {
+          "name": "Reduced Transparency",
+          "values": ["Auto", "Off", "On"],
+          "emitFunction": "reducedTransparency",
+          "imgSrc": "accessibility/reducedTransparency",
+          "imgAlt": ""
+        },
+        {
+          "name": "Reduced Colors",
+          "values": ["Off", "On"],
+          "emitFunction": "reducedColors",
+          "imgSrc": "accessibility/reducedColors",
+          "imgAlt": ""
+        },
+        {
+          "name": "Reading Mask",
+          "values": ["Off", "On"],
+          "emitFunction": "readingMask",
+          "imgSrc": "accessibility/readingMask",
+          "imgAlt": ""
+        },
+        {
+          "name": "Adjust Text",
+          "values": ["Default", "Bigger", "Bigger+", "Smaller", "Smaller+"],
+          "emitFunction": "adjustText",
+          "imgSrc": "accessibility/adjustText",
+          "imgAlt": ""
+        }
+      ],
+      "alerts": {
+        "firstPart": "The",
+        "secondPart": "has been set to",
+        "secondPartAlt": "has been turned",
+        "colorScheme": {
+          "name": "color theme",
+          "verb": "has been set to",
+          "verbAlt": "has been turned",
+          "values": ["auto", "light", "dark"]
+        },
+        "contrast": {
+          "name": "contrast",
+          "verb": "has been set to",
+          "verbAlt": "has been turned",
+          "values": ["auto", "default", "less", "more"]
+        },
+        "reducedMotion": {
+          "name": "reduced motion",
+          "verb": "has been set to",
+          "verbAlt": "has been turned",
+          "values": ["auto", "off", "on"]
+        },
+        "reducedTransparency": {
+          "name": "reduced transparency",
+          "verb": "has been set to",
+          "verbAlt": "has been turned",
+          "values": ["auto", "off", "on"]
+        },
+        "reducedColors": {
+          "name": "reduced colors",
+          "verb": "have been set to",
+          "verbAlt": "have been turned",
+          "values": ["off", "on"]
+        },
+        "readingMask": {
+          "name": "reading mask",
+          "verb": "has been set to",
+          "verbAlt": "has been turned",
+          "values": ["off", "on"]
+        },
+        "adjustText": {
+          "name": "text size",
+          "verb": "has been set to",
+          "verbAlt": "has been turned",
+          "values": ["default", "bigger", "bigger+", "smaller", "smaller+"]
+        }
+      }
+    },
+    "pl": {
+      "menuTitle": "Ustawienia Dostępności",
+      "accessibilityAlt": "Ustawienia dostępności",
+      "buttons": [
+        {
+          "name": "Schemat Kolorystyczny",
+          "values": ["Auto", "Jasny", "Ciemny"],
+          "emitFunction": "colorScheme",
+          "imgSrc": "accessibility/colorTheme",
+          "imgAlt": ""
+        },
+        {
+          "name": "Kontrast",
+          "values": ["Auto", "Domyślny", "Mniejszy", "Większy"],
+          "emitFunction": "contrast",
+          "imgSrc": "accessibility/contrast",
+          "imgAlt": ""
+        },
+        {
+          "name": "Ograniczony Ruch",
+          "values": ["Auto", "Wyłączony", "Włączony"],
+          "emitFunction": "reducedMotion",
+          "imgSrc": "accessibility/reducedMotion",
+          "imgAlt": ""
+        },
+        {
+          "name": "Ograniczona Przeźroczystość",
+          "values": ["Auto", "Wyłączona", "Włączona"],
+          "emitFunction": "reducedTransparency",
+          "imgSrc": "accessibility/reducedTransparency",
+          "imgAlt": ""
+        },
+        {
+          "name": "Ograniczone Kolory",
+          "values": ["Wyłączone", "Włączone"],
+          "emitFunction": "reducedColors",
+          "imgSrc": "accessibility/reducedColors",
+          "imgAlt": ""
+        },
+        {
+          "name": "Maska do Czytania",
+          "values": ["Wyłączona", "Włączona"],
+          "emitFunction": "readingMask",
+          "imgSrc": "accessibility/readingMask",
+          "imgAlt": ""
+        },
+        {
+          "name": "Dostosuj Tekst",
+          "values": [
+            "Domyślny",
+            "Większy",
+            "Większy+",
+            "Mniejszy",
+            "Mniejszy+"
+          ],
+          "emitFunction": "adjustText",
+          "imgSrc": "accessibility/adjustText",
+          "imgAlt": ""
+        }
+      ],
+
+      "alerts": {
+        "firstPart": "",
+        "secondPart": "został ustawiony na",
+        "secondPartAlt": "został",
+        "colorScheme": {
+          "name": "Schemat kolorystyczny",
+          "verb": "został ustawiony na",
+          "verbAlt": "został",
+          "values": ["auto", "jasny", "ciemny"]
+        },
+        "contrast": {
+          "name": "Kontrast",
+          "verb": "został ustawiony na",
+          "verbAlt": "został",
+          "values": ["auto", "domyślny", "mniejszy", "większy"]
+        },
+        "reducedMotion": {
+          "name": "Ograniczony ruch",
+          "verb": "został ustawiony na",
+          "verbAlt": "został",
+          "values": ["auto", "wyłączony", "włączony"]
+        },
+        "reducedTransparency": {
+          "name": "Ograniczona przezroczystość",
+          "verb": "została ustawiona na",
+          "verbAlt": "została",
+          "values": ["auto", "wyłączona", "włączona"]
+        },
+        "reducedColors": {
+          "name": "Ograniczone kolory",
+          "verb": "zostały ustawione na",
+          "verbAlt": "zostały",
+          "values": ["wyłączone", "włączone"]
+        },
+        "readingMask": {
+          "name": "Maska do czytania",
+          "verb": "została ustawiona na",
+          "verbAlt": "została",
+          "values": ["wyłączona", "włączona"]
+        },
+        "adjustText": {
+          "name": "Rozmiar tekstu",
+          "verb": "został ustawiony na",
+          "verbAlt": "został",
+          "values": ["domyślny", "większy", "większy+", "mniejszy", "mniejszy+"]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+* {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+	* {
+		scrollbar-color: var(--scrollbar-thumb) var(--bg-primary);
+		scrollbar-width: thin;
+	}
+}
+
+#app {
+	width: 100vw;
+	height: 100vh;
+	overflow-y: scroll;
+}
+#appContainer {
+	width: 100%;
+	height: 100vh;
+	margin: auto;
+	overflow: visible;
+}
+
+header,
+footer {
+	position: relative;
+	width: 100%;
+	padding: calc(0.5 * var(--font-base)) calc(2.5 * var(--font-base));
+}
+header::before,
+footer::before {
+	content: "";
+	width: 100%;
+	height: 2px;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+nav {
+	font-size: 1.2rem;
+	text-align: right;
+}
+
+div.overlay {
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
