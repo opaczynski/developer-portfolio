@@ -88,7 +88,7 @@ div.topImage {
 }
 
 div.topImage picture {
-	display: flex;
+	display: block;
 	align-items: center;
 	justify-content: center;
 	width: 100%;
